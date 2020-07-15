@@ -16,12 +16,12 @@ body {
     font-family: 'Gilroy';
     font-weight: 300;
     background-color: #03A678;
-    background-image: -webkit-linear-gradient(130deg, #03A678 57%, #EDC537 50%);
-    background-image: linear-gradient(130deg, #03A678 57%, #EDC537 50%);
+    background-image: -webkit-linear-gradient(130deg, #E56B6F 57%,#6D597A 50%);
+    background-image: linear-gradient(130deg,#E56B6F 57%,#6D597A 50%);
 
     @media (max-width: 440px) {
-        background-image: -webkit-linear-gradient(130deg, #03A678 77%, #EDC537 50%);
-        background-image: linear-gradient(130deg, #03A678 77%, #EDC537 50%);
+        background-image: -webkit-linear-gradient(130deg, #E56B6F 77%,#6D597A 50%);
+        background-image: linear-gradient(130deg,#E56B6F 77%,#6D597A 50%);
     }
 }
 .wrapper {
@@ -35,7 +35,7 @@ body {
 }
 
 h1, h2, h3, h4, a {
-    color: #4F37A6;
+    color: #355070;
 }
 
 h1 {
