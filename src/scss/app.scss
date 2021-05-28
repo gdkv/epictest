@@ -44,6 +44,9 @@ h1 {
     font-weight: 800;
     font-family: 'Gilroy';
     margin: 0 0 40px;
+    background: linear-gradient(to right, #c33764, #1d2671);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 p {
     font-size: 18px;
