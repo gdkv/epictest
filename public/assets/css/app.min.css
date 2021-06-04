@@ -366,8 +366,7 @@ h1 {
     font-weight: 800;
     font-family: Gilroy;
     margin: 0 0 40px;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    
     animation-duration: 3s;
     animation-name: textBackground;
     animation-iteration-count: infinite;
@@ -376,10 +375,14 @@ h1 {
 @keyframes textBackground {
     from {
         background: linear-gradient(to right, #c33764, #1d2671);
+        -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     }
 
     to {
         background: linear-gradient(to right, #1d2671, #c33764);
+        -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     }
 }
 
